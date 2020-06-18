@@ -22,6 +22,9 @@ Type the domain of your interest and click the "Search Domain" button.
 
 Search all the domains that are in the database.
 
+- It is made with ReactJS
+- Use it in your phone, it's responsive!
+
 ## Next steps
 
 - Add authentication to get the user's past searches
