@@ -1,0 +1,60 @@
+@import "../Vars.styl"
+
+.form
+  grid-area form
+  margin 0 auto
+  text-align center
+  padding 1.5em
+  border-radius 10px
+  width 50%
+
+.form input, .form textarea
+  width 100%
+  padding 20px
+  font-size 16px
+  border none
+  border-radius 5px
+  box-sizing border-box
+  margin-bottom 10px
+  background-color dark
+  color baseColor
+  font-family font-family
+
+.form input::placeholder, .form textarea::placeholder
+  color baseColor
+
+button
+  background #93ca3f
+  color baseColor
+  padding 15px
+  margin 10px auto
+  border-radius 2px
+  border none
+  width 100%
+  display inline-block
+  cursor pointer
+  &:active
+    background #91e80d
+    border 1px solid #93ca3f
+    transition all 0.5s
+  &:hover
+    background #91e80d
+    border 1px solid #93ca3f
+    transition all 0.5s
+
+.results__table pre
+  margin  10px 50px
+  padding 20px
+  border solid 1px lightGray
+  box-shadow 10px 10px 5px -4px rgba(0,0,0,0.04)
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+
+@media screen and (max-width 768px)
+  .form
+    width 70%
+
+@media screen and (min-width 425px)
+  .form
+    width 90%
